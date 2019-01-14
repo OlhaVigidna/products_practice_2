@@ -5,13 +5,13 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.1.1.RELEASE</version>
+		<version>2.0.5.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>ua.com.owu</groupId>
-	<artifactId>products_practice_2</artifactId>
+	<groupId>com.example</groupId>
+	<artifactId>practice_3</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>products_practice_2</name>
+	<name>practice_3</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -25,12 +25,16 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-groovy-templates</artifactId>
+			<artifactId>spring-boot-starter-jdbc</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-jdbc</artifactId>
+			<artifactId>spring-boot-starter-mail</artifactId>
 		</dependency>
+		<!--<dependency>-->
+			<!--<groupId>org.springframework.boot</groupId>-->
+			<!--<artifactId>spring-boot-starter-security</artifactId>-->
+		<!--</dependency>-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
@@ -60,6 +64,11 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<!--<dependency>-->
+			<!--<groupId>org.springframework.security</groupId>-->
+			<!--<artifactId>spring-security-test</artifactId>-->
+			<!--<scope>test</scope>-->
+		<!--</dependency>-->
 	</dependencies>
 
 	<build>

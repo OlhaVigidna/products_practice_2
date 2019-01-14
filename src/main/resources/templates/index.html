@@ -6,6 +6,11 @@
 </head>
 <body>
 <h1>Okten</h1>
-<a th:href="saveProd.html">save</a>
+<!--<a th:href="saveProd.html">save</a>-->
+<form th:action="@{/sendMessage}" method="post">
+    <input name="email" placeholder="email">
+    <input type="" name="message" placeholder="message">
+    <input type="submit" value="go!">
+</form>
 </body>
 </html>
